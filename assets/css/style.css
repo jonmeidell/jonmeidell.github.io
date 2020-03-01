@@ -1,0 +1,66 @@
+.topmenu {
+    float: right;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 120px;
+    margin: -10px 10px 10px;
+    color: black;
+    padding: 0px 10px 60px 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.links-container {
+    margin-left: 70%;
+}
+
+.me {
+    font-family: 'Trade Winds';
+    font-size: 60px;
+}
+
+.talk { 
+    font-family: 'Trade Winds';
+    text-align: left;
+}
+
+#box {
+    font-family: 'Oxanium';
+    background-color: whitesmoke;
+    width: 800px;
+    height: 350px;
+    margin: 100px 10px 30px 100px;
+    color: black;
+    padding: 25px 10px 10px 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.left {
+    float: left;
+}
+
+body {
+    background-image: url("../images/brick.jpg");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h3 {
+    color: #4aaaa5;   
+}
+
+div:hover {
+    color: rgb(11, 66, 32)
+}
+
+div:visited {
+    color: #f33c3c
+}

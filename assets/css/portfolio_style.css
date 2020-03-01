@@ -1,0 +1,97 @@
+title {
+    color: teal
+}
+
+body {
+    background-image: url(../images/glass.jpg);
+}
+
+.topmenu {
+    float: right;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 120px;
+    margin: 0px 10px 10px;
+    color: black;
+    padding: 0px 10px 60px 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.links-container {
+    margin-left: 70%;
+}
+
+.me {
+    font-family: 'Trade Winds';
+    font-size: 60px;
+}
+
+#profile {
+    color: teal;
+    margin-left: 98px;
+    font-size: 45px;
+}
+
+#box {
+    background-color: whitesmoke;
+    width: 700px;
+    height: 490px;
+    margin: 10px 10px 30px 100px;
+    color: black;
+    padding: 25px 30px 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+#burger {
+    background-image: url(../images/image-placeholder-title[1].jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 205px;
+    background-size: cover;
+    text-align: center;
+}
+
+#curry {
+    background-image: url(../images/letterbox_enco_curried-lamb-or-goat-recipe-image[1].jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 205px;
+    background-size: cover;
+    text-align: center;
+}
+
+#speg {
+    background-image: url(../images/letterbox_BeerSpaghetti[1].jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 205px;
+    background-size: cover;
+    text-align: center;
+}
+
+#chicken {
+    background-color: teal;
+    background-image: url(../images/letterbox_resizeimage593x426xireKk8lI8C[1].jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 205px;
+    background-size: cover;
+    text-align: center;    
+}
+
+#soup {
+    background-image: url(../images/letterbox_Vegetarian-pho-with-tofu-2-593[1].jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 205px;
+    background-size: cover;
+    text-align: center;
+}
+
+p {
+    background-color: teal;
+}

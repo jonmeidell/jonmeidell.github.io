@@ -1,15 +1,36 @@
-.topmenu {
-    float: right;
-    background-color: whitesmoke;
-    width: 100%;
-    height: 120px;
-    margin: -10px 10px 10px;
-    color: black;
-    padding: 0px 10px 60px 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
+.reprobody {
+    background-image: url("../images/brick.jpg");
+    font-family: 'Oxanium';
 }
+
+.contactbody {
+    background-image: url("../images/leaves.jpg");
+    font-family: 'Oxanium';
+}
+
+.portfoliobody {
+    background-image: url("../images/glass.jpg");
+    font-family: 'Oxanium';
+}
+
+.container {
+    background-color: lightseagreen;
+    font-family: 'Trade Winds';    
+}
+
+.navbar {
+    font-family: 'Trade Winds';
+}
+
+.nav-item {
+    font-family: 'Oxanium';
+}
+
+.about {
+    font-family: 'Trade Winds';    
+}
+
+<--- contact page --->
 
 .links-container {
     margin-left: 70%;
@@ -20,47 +41,91 @@
     font-size: 60px;
 }
 
-.talk { 
-    font-family: 'Trade Winds';
-    text-align: left;
+form {
+    margin: 20px;
+}
+
+form .field {
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+form .field input,textarea {
+    padding: 5px;
+}
+
+#submit {
+    margin-left: 20px;
+    padding: 10px;
+    background-color: teal;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
 }
 
 #box {
-    font-family: 'Oxanium';
     background-color: whitesmoke;
-    width: 800px;
-    height: 350px;
-    margin: 100px 10px 30px 100px;
-    color: black;
-    padding: 25px 10px 10px 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
+    padding-bottom: 20px;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+<--- portfolio page --->
+
+#port {
+    padding: 0px;
 }
 
-.left {
-    float: left;
+#burger {
+    background-image: url(../images/burger.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 205px;
+    background-size: cover;
+    text-align: center;
 }
 
-body {
-    background-image: url("../images/brick.jpg");
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+#curry {
+    background-image: url(../images/letterbox_enco_curried-lamb-or-goat-recipe-image[1].jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 205px;
+    background-size: cover;
+    text-align: center;
 }
 
-h3 {
-    color: #4aaaa5;   
+#speg {
+    background-image: url(../images/letterbox_BeerSpaghetti[1].jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 205px;
+    background-size: cover;
+    text-align: center;
 }
 
-div:hover {
-    color: rgb(11, 66, 32)
+#chicken {
+    background-color: teal;
+    background-image: url(../images/letterbox_resizeimage593x426xireKk8lI8C[1].jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 205px;
+    background-size: cover;
+    text-align: center;    
 }
 
-div:visited {
-    color: #f33c3c
+#soup {
+    background-image: url(../images/letterbox_Vegetarian-pho-with-tofu-2-593[1].jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 205px;
+    background-size: cover;
+    text-align: center;
+}
+
+.row {
+    padding-top: 25px;
+}
+
+p {
+    background-color: teal;
 }

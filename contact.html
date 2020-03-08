@@ -1,39 +1,42 @@
 <!DOCTYPE html>
-<html lang="en,pt">
+<html lang="en">
+
+<head>
+    <title>Contact Bootstrap Reproduction</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body class="contactbody">
+
     <link href="https://fonts.googleapis.com/css?family=Oxanium|Trade+Winds&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./assets/css/contact_style.css">
-<body>
-    
-    <header>
-        <nav><div class="topmenu">
-            <div class="col-md-9"><h1 class="me">
-                Hi, I'm Jonathan Meidell
-                </h1>
-                
-                </div>
-                    <div class="links-container row">
-                        <div class="col-lg-9"></div>
-                            <!--- dummy space --->
-                        
-                        <div class="col-md-1 col-lg-1"><a href="index.html">
-                            Index
-                        </a></div>
-    
-                        <div class="col-md-1 col-lg-1"><a href="portfolio.html">
-                            Portfolio
-                        </a></div>
-    
-                        <div class="col-md-1 col-lg-1"><a href="contact.html">
-                            Contact
-                        </a></div>
-                </div>
-            </div>            
+
+    <div class="container col-md-3 float-left">
+        <h3>Jonathan Meidell</h3>
+    </div>
+
+        <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+            <ul class="navbar-nav clearfix">
+                <li class="nav-item">
+                    <a class="nav-link float-right" href="repro.html">About Me</a>
+                </li>
+                <li class="nav-item float-right">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item float-right">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
         </nav>
-    </header>
 
-    <h1 id="contact">Contact me</h1>
+    <hr>
 
-    <div id="box">
+    <div id="box" class="col-lg-9">
         <form>
             <div class="field">
                 <label for="name">Name</label>
@@ -54,6 +57,11 @@
             </button>
         </form>
     </div>
-    
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
+        <a class="navbar-brand" href="#">Copyright © Now</a>     
+    </nav>
 
 </body>
+  
+</html>

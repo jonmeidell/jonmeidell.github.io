@@ -47,12 +47,16 @@ body {
 }
 
 #burger {
-    background-image: url(../images/image-placeholder-title[1].jpg);
+    background-image: url(../../Portfoliolinks/Word-Guess-Game/assets/images/mainpage.jpg);
     background-repeat: no-repeat;
     background-position: center;
     min-height: 205px;
     background-size: cover;
     text-align: center;
+}
+
+#castle {
+    content: url(/Portfoliolinks/Word-Guess-Game/index.html);    
 }
 
 #curry {

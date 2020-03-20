@@ -48,6 +48,8 @@ body {
 
 #burger {
     background-image: url(../../Portfoliolinks/Word-Guess-Game/assets/images/mainpage.jpg);
+    // pic not changing
+    // link not working
     background-repeat: no-repeat;
     background-position: center;
     min-height: 205px;

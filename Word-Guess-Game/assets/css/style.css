@@ -3,6 +3,7 @@ body {
     background-image: url("../images/startpage.jpg");
     background-repeat: no-repeat;
     background-color: black;
+    background-size: 100%;
     color: whitesmoke;
 }
 

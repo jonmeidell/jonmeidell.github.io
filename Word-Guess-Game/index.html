@@ -1,70 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    
+
     <title>Castlevania Hangman</title>
 </head>
 
 <body>
 
-    <div class="container col-md-3 float-left">
-        <h3>Jonathan Meidell</h3>
+    <div id="box" class="col-lg-9">
+        <form>
+            <div>
+                <p id="directions-text">Press any letter to start guessing!</p>
+            </div>
+
+            <div>
+                <p id="empty-array"></p>
+                <!-- // not showing word -->
+            </div>
+
+            <div>
+                <p id="wins-text">Wins: </p>
+                <!-- // not showing -->
+                <p id="losses-text">Losses: </p>
+                <!-- // not showing -->
+                <p id="guesses-left">Guesses left: 12</p>
+                <!-- // not counting properly -->
+                <p id="letters-guessed">Guesses: </p>
+                <!-- // not showing -->
+            </div>
+
+            <div>
+                <button onclick="newWord()">New word</button>
+            </div>
+
+        </form>
     </div>
 
-        <nav class="navbar navbar-expand-sm bg-info navbar-dark">
-            <ul class="navbar-nav clearfix">
-                <li class="nav-item">
-                    <a class="nav-link float-right" href="../repro.html">About Me</a>
-                </li>
-                <li class="nav-item float-right">
-                    <a class="nav-link" href="../portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item float-right">
-                    <a class="nav-link" href="../contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-  
-    <hr>
-
-        <div id="box" class="col-lg-9">
-            <form>
-                <div>
-                    <p id="directions-text">Press any letter to start guessing!</p>
-                </div>
-
-                <div>
-                    <p id="empty-array"></p>
-                              <!-- // not showing word -->
-                </div>
-                
-                <div>
-                    <p id="wins-text">Wins: </p>
-                                  <!-- // not showing -->
-                    <p id="losses-text">Losses: </p>
-                                  <!-- // not showing -->
-                    <p id="guesses-left">Guesses left: </p>
-                                  <!-- // not counting properly -->
-                    <p id="letters-guessed">Guesses: </p>
-                                  <!-- // not showing -->
-                </div>
-
-                <div>
-                    <button onclick="newWord()">New word</button>
-                </div>
-
-            </form>
-        </div>    
-
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
-        <a class="navbar-brand" href="#">Copyright © Now</a>     
-    </nav>
+    <img id="picture" src="">
 
     <script src="./assets/javascript/game.js"></script>
 

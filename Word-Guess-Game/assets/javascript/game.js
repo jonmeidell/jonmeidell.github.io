@@ -21,8 +21,8 @@ function makeEmptyArray(arr) {
     }
     currentWord.textContent = emptyArray.join(" ");
 }
-makeEmptyArray(word);
 
+makeEmptyArray(word);
 
 console.log(word);
 console.log(emptyArray);
@@ -32,10 +32,14 @@ function gameState() {
         console.log("You've defeated Dracula");
         wins++;
         winsText.innerHTML = "Wins: " + wins;
+        document.getElementById("picture").setAttribute("src", "assets/images/" + word + ".jpg");
+        newWord();
 
     } else if (guessesLeft <= 0) {
         console.log("Dracula wins!");
         losses++;
+        lossesText.innerHTML = "Losses: " + losses;
+        newWord();
     }
 }
 
@@ -47,42 +51,32 @@ function newWord() {
     makeEmptyArray(word);
     document.getElementById("guesses-left").innerHTML = "Guesses left: " + guessesLeft;
     document.getElementById("empty-array").innerHTML;
+    letters.innerHTML = "Guesses: ";
 }
 
 document.onkeyup = function (event) {
-
-
     if (alphabet.includes(event.key) && !lettersGuessed.includes(event.key)) {
         lettersGuessed.push(event.key);
         letters.innerHTML = lettersGuessed;
 
-        //check if word contains key
-
-        //else guesses--
-        guessesLeft -= 1;
-        document.getElementById("wins-text").innerHTML = "Wins: " + wins;
-        document.getElementById("losses-text").innerHTML = "Losses: " + losses;
-        document.getElementById("guesses-left").innerHTML = "Guesses left: " + guessesLeft;
-
-        console.log(event.key);
-
-        for (var i = 0; i < word.length; i++) {
-            if (word[i] === event.key) {
-                emptyArray[i] = word[i];
+        if (word.includes(event.key)) {
+            for (var i = 0; i < word.length; i++) {
+                if (word[i] === event.key) {
+                    emptyArray[i] = word[i];
+                }
             }
+            currentWord.textContent = emptyArray.join(" ");
+
+        } else {
+            guessesLeft -= 1;
+            document.getElementById("guesses-left").innerHTML = "Guesses left: " + guessesLeft
         }
-        currentWord.textContent = emptyArray.join(" ");
+
         gameState();
-        console.log(emptyArray);
-        console.log(indexes);
-        console.log(guessesLeft);
 
     } else if (lettersGuessed.includes(event.key)) {
         console.log("You've already guessed " + event.key);
-        gameState();
     } else {
-        console.log(word + " does not contain " + event.key);
-        gameState();
+        console.log("Please enter a valid key a-z.");
     }
-
 }

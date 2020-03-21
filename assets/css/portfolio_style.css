@@ -47,9 +47,9 @@ body {
 }
 
 #burger {
-    background-image: url(../../Word-Guess-Game/assets/images/mainpage.jpg);
-    // pic not changing
-    // link not working
+    background-image: url(/assets/images/mainpage.jpg);
+    /* pic not changing */
+    /* link not working */
     background-repeat: no-repeat;
     background-position: center;
     min-height: 205px;
@@ -58,7 +58,7 @@ body {
 }
 
 #castle {
-    content: url(/Portfoliolinks/Word-Guess-Game/index.html);    
+    content: url(https://jonmeidell.github.io/Word-Guess-Game/);    
 }
 
 #curry {

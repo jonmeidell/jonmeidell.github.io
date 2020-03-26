@@ -92,12 +92,18 @@ form .field input,textarea {
 }
 
 #curry {
-    background-image: url(../images/letterbox_enco_curried-lamb-or-goat-recipe-image[1].jpg);
+    background-image: url(../images/tmnt.jpg);
     background-repeat: no-repeat;
     background-position: center;
     min-height: 205px;
     background-size: cover;
     text-align: center;
+}
+
+#turtle {
+    background-color: whitesmoke;
+    padding: 5px;
+    font-family: 'Trade Winds';
 }
 
 #speg {

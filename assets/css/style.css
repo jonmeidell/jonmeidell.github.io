@@ -107,12 +107,18 @@ form .field input,textarea {
 }
 
 #speg {
-    background-image: url(../images/letterbox_BeerSpaghetti[1].jpg);
+    background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     min-height: 205px;
     background-size: cover;
     text-align: center;
+}
+
+#mutant {
+    background-color: whitesmoke;
+    padding: 5px;
+    font-family: 'Trade Winds';
 }
 
 #chicken {

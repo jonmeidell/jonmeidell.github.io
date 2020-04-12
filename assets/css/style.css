@@ -123,12 +123,18 @@ form .field input,textarea {
 
 #chicken {
     background-color: teal;
-    background-image: url(../images/letterbox_resizeimage593x426xireKk8lI8C[1].jpg);
+    background-image: url(../images/gif.gif);
     background-repeat: no-repeat;
     background-position: center;
     min-height: 205px;
     background-size: cover;
     text-align: center;    
+}
+
+#giftastic {
+    background-color: whitesmoke;
+    padding: 5px;
+    font-family: 'Trade Winds';
 }
 
 #soup {

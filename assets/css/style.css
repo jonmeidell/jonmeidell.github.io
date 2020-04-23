@@ -72,6 +72,25 @@ form .field input,textarea {
     padding-bottom: 20px;
     border-radius: 3px;
     margin: auto;
+    transition: all 0.5s ease-in-out;
+    opacity: 90%;
+    box-shadow: 1px 1px 7px 4px rgb(51, 54, 58);
+}
+
+#box:hover {
+    color: rgb(74, 84, 226);
+    box-shadow: 1px 1px 7px 4px rgb(252, 147, 61);
+}
+
+#submit {
+    margin: auto;
+    transition: all 0.6s ease-in-out;
+    opacity: 90%;
+}
+
+#submit:hover {
+    color: rgb(252, 147, 61);
+    box-shadow: 1px 1px 7px 2px teal;
 }
 
 /* <--- portfolio page ---> */
@@ -103,7 +122,6 @@ form .field input,textarea {
 }
 
 .portCard:hover {
-    color: red;
     box-shadow: 1px 1px 7px 4px rgb(61, 160, 252);
 }
 

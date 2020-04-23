@@ -72,78 +72,56 @@ form .field input,textarea {
 
 /* <--- portfolio page ---> */
 
+.box {
+    border: black;
+    border-radius: 3px;
+    border: 2px;
+    background-color: rgb(247, 212, 184);
+    padding: 5px;
+    font-family: 'Trade Winds';
+}
+
+.portCard {
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 205px;
+    background-size: cover;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    margin: auto;
+    opacity: 90%;
+    box-shadow: 1px 1px 7px 4px;
+}
+
+.portCard:hover {
+    color: red;
+    box-shadow: 1px 1px 7px 4px orangered;
+}
+
 #port {
     padding: 0px;
 }
 
-#burger {
-    background-image: url(../images/mainpage.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 205px;
-    background-size: cover;
-    text-align: center;
-}
-
 #castle {
-    background-color: whitesmoke;
-    padding: 5px;
-    font-family: 'Trade Winds';
-}
-
-#curry {
-    background-image: url(../images/tmnt.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 205px;
-    background-size: cover;
-    text-align: center;
+    background-image: url(../images/mainpage.jpg);
 }
 
 #turtle {
-    background-color: whitesmoke;
-    padding: 5px;
-    font-family: 'Trade Winds';
+    background-image: url(../images/tmnt.jpg);
 }
 
-#speg {
+#xMen {
     background-image: url(../images/background.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 205px;
-    background-size: cover;
-    text-align: center;
-}
-
-#mutant {
-    background-color: whitesmoke;
-    padding: 5px;
-    font-family: 'Trade Winds';
-}
-
-#chicken {
-    background-color: teal;
-    background-image: url(../images/gif.gif);
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 205px;
-    background-size: cover;
-    text-align: center;    
 }
 
 #giftastic {
-    background-color: whitesmoke;
-    padding: 5px;
-    font-family: 'Trade Winds';
+    background-color: teal;
+    background-image: url(../images/gif.gif);  
 }
 
-#soup {
-    background-image: url(../images/letterbox_Vegetarian-pho-with-tofu-2-593[1].jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 205px;
-    background-size: cover;
-    text-align: center;
+#train {
+    background-image: url(../images/uta.jpg);
 }
 
 .row {

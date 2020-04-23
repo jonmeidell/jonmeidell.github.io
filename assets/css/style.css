@@ -70,6 +70,8 @@ form .field input,textarea {
 #box {
     background-color: whitesmoke;
     padding-bottom: 20px;
+    border-radius: 3px;
+    margin: auto;
 }
 
 /* <--- portfolio page ---> */

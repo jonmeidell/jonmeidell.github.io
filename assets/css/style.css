@@ -1,26 +1,15 @@
-.reprobody {
-    background-image: url("../images/brick.jpg");
-    font-family: 'Oxanium';
-}
-
-.contactbody {
-    background-image: url("../images/leaves.jpg");
-    font-family: 'Oxanium';
-}
-
-.portfoliobody {
-    background-image: url("../images/tree.jpg");
-    background-size: cover;
-    font-family: 'Oxanium';
-}
+/* --- navbar ---*/
 
 .container {
     background-color: lightseagreen;
-    font-family: 'Trade Winds';    
+    font-family: 'Trade Winds';
+    text-align: center;
+    color: rgb(39, 13, 73);
 }
 
 .navbar {
     font-family: 'Trade Winds';
+    border-radius: 0px 0px 0px 3px;
 }
 
 .nav-item {
@@ -31,7 +20,19 @@
     font-family: 'Trade Winds';    
 }
 
+/* --- main page --- */
+
+.reprobody {
+    background-image: url("../images/brick.jpg");
+    font-family: 'Oxanium';
+}
+
 /* --- contact page --- */
+
+.contactbody {
+    background-image: url("../images/leaves.jpg");
+    font-family: 'Oxanium';
+}
 
 .links-container {
     margin-left: 70%;
@@ -72,6 +73,12 @@ form .field input,textarea {
 }
 
 /* <--- portfolio page ---> */
+
+.portfoliobody {
+    background-image: url("../images/tree.jpg");
+    background-size: cover;
+    font-family: 'Oxanium';
+}
 
 .box {
     border-radius: 3px;

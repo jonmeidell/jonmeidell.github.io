@@ -9,7 +9,8 @@
 }
 
 .portfoliobody {
-    background-image: url("../images/glass.jpg");
+    background-image: url("../images/tree.jpg");
+    background-size: cover;
     font-family: 'Oxanium';
 }
 
@@ -73,10 +74,8 @@ form .field input,textarea {
 /* <--- portfolio page ---> */
 
 .box {
-    border: black;
     border-radius: 3px;
-    border: 2px;
-    background-color: rgb(247, 212, 184);
+    background-color: rgb(243, 208, 227);
     padding: 5px;
     font-family: 'Trade Winds';
 }
@@ -91,12 +90,12 @@ form .field input,textarea {
     transition: all 0.5s ease-in-out;
     margin: auto;
     opacity: 90%;
-    box-shadow: 1px 1px 7px 4px;
+    box-shadow: 1px 1px 7px 4px rgb(161, 173, 184);
 }
 
 .portCard:hover {
     color: red;
-    box-shadow: 1px 1px 7px 4px orangered;
+    box-shadow: 1px 1px 7px 4px rgb(61, 160, 252);
 }
 
 #port {
@@ -116,7 +115,6 @@ form .field input,textarea {
 }
 
 #giftastic {
-    background-color: teal;
     background-image: url(../images/gif.gif);  
 }
 

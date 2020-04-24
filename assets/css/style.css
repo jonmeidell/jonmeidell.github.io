@@ -31,6 +31,7 @@
 
 .indexCard {
     transition: all 0.5s ease-in-out;
+    opacity: 90%;
     box-shadow: 1px 1px 7px 1px rgb(161, 173, 184);
 }
 

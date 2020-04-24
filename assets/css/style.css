@@ -5,11 +5,13 @@
     font-family: 'Trade Winds';
     text-align: center;
     color: rgb(39, 13, 73);
+    box-shadow: 1px 1px 7px 1px rgb(161, 173, 184);
 }
 
 .navbar {
     font-family: 'Trade Winds';
     border-radius: 0px 0px 0px 3px;
+    box-shadow: 1px 1px 7px 1px rgb(161, 173, 184);
 }
 
 .nav-item {
@@ -20,11 +22,21 @@
     font-family: 'Trade Winds';    
 }
 
-/* --- main page --- */
+/* --- index page --- */
 
 .reprobody {
     background-image: url("../images/brick.jpg");
     font-family: 'Oxanium';
+}
+
+.indexCard {
+    transition: all 0.5s ease-in-out;
+    box-shadow: 1px 1px 7px 1px rgb(161, 173, 184);
+}
+
+.indexCard:hover {
+    color: rgb(46, 111, 172);
+    box-shadow: 1px 1px 7px 1px rgb(46, 111, 172);
 }
 
 /* --- contact page --- */
@@ -142,7 +154,11 @@ form .field input,textarea {
 }
 
 #giftastic {
-    background-image: url(../images/gif.gif);  
+    background-image: url(../images/gifStill.jpg);
+}
+
+#giftastic:hover {
+    background-image: url(../images/gif.gif);
 }
 
 #train {

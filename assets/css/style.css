@@ -18,15 +18,16 @@
     font-family: 'Oxanium';
 }
 
-.about {
-    font-family: 'Trade Winds';    
-}
-
 /* --- index page --- */
 
 .reprobody {
     background-image: url("../images/brick.jpg");
     font-family: 'Oxanium';
+}
+
+.aboutMe {
+    font-family: 'Trade Winds'; 
+    padding: 5px 0 0 10px;   
 }
 
 .indexCard {
@@ -38,6 +39,31 @@
 .indexCard:hover {
     color: rgb(46, 111, 172);
     box-shadow: 1px 1px 7px 1px rgb(46, 111, 172);
+}
+
+.row {
+    padding: 0px 0px 15px 20px; 
+}
+
+.column {
+    float: left;
+    padding: 5px;
+  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#pic {
+    padding-left: 15px;
+    float: left;
+    width: 20%;
+}
+
+#text {
+    float: right;
 }
 
 /* --- contact page --- */
@@ -97,7 +123,7 @@ form .field input,textarea {
 
 #submit {
     margin: auto;
-    transition: all 0.6s ease-in-out;
+    transition: all 0.8s ease-in-out;
     opacity: 90%;
 }
 

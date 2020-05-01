@@ -217,6 +217,7 @@ form .field input,textarea {
 
 .row {
     padding-top: 25px;
+    padding-bottom: 0;
 }
 
 @media only screen and (max-width: 900px) {

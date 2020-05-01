@@ -18,6 +18,10 @@
     font-family: 'Oxanium';
 }
 
+.navSeparation {
+    opacity: 0;
+}
+
 /* --- index page --- */
 
 .reprobody {
@@ -30,10 +34,16 @@
     padding: 5px 0 0 10px;   
 }
 
-.indexCard {
+.indexCard {    
     transition: all 0.5s ease-in-out;
     opacity: 90%;
     box-shadow: 1px 1px 7px 1px rgb(51, 54, 58);
+}
+
+@media only screen and (max-width: 900px) {
+    .indexCard {
+        margin-bottom: 80px;
+    }
 }
 
 .indexCard:hover {
@@ -149,13 +159,14 @@ form .field input,textarea {
 
 .portCard {
     border-radius: 5px;
+    margin: 5px;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 205px;
     background-size: cover;
     text-align: center;
     transition: all 0.5s ease-in-out;
-    margin: auto;
+    /* margin: auto; */
     opacity: 90%;
     box-shadow: 1px 1px 7px 1px rgb(51, 54, 58);
 }
@@ -207,3 +218,14 @@ form .field input,textarea {
 .row {
     padding-top: 25px;
 }
+
+@media only screen and (max-width: 900px) {
+    .row {
+        padding: 0;
+    }
+
+    .preFooter {
+        margin-bottom: 80px;
+    }
+}
+

@@ -191,6 +191,10 @@ form .field input,textarea {
     background-image: url(../images/mainpage.jpg);
 }
 
+#castle:hover {
+    background-image: url(../images/castlevania.gif);
+}
+
 #turtle {
     background-image: url(../images/tmnt.jpg);
 }

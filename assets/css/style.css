@@ -231,6 +231,14 @@ form .field input,textarea {
     background-image: url(../images/pat-d.PNG);
 }
 
+#burger {
+    background-image: url(../images/burger.jpg);
+}
+
+#burger:hover {
+    background-image: url(../images/burger.gif);
+}
+
 .row {
     padding-top: 25px;
     padding-bottom: 0;

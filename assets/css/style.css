@@ -223,6 +223,10 @@ form .field input,textarea {
     background-image: url(../images/uta.jpg);
 }
 
+#train:hover {
+    background-image: url(../images/train.png);
+}
+
 #pat {
     background-image: url(../images/pat-l.PNG);
 }

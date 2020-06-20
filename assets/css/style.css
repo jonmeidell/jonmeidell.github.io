@@ -243,6 +243,14 @@ form .field input,textarea {
     background-image: url(../images/burger.gif);
 }
 
+#education {
+    background-image: url(../images/brainl.PNG);
+}
+
+#education:hover {
+    background-image: url(../images/brainr.PNG);
+}
+
 .row {
     padding-top: 25px;
     padding-bottom: 0;

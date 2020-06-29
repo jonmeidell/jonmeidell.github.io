@@ -235,6 +235,14 @@ form .field input,textarea {
     background-image: url(../images/pat-d.PNG);
 }
 
+#bamazon {
+    background-image: url(../images/amazon.jpg);
+}
+
+#bamazon:hover {
+    background-image: url(../images/bamazon.jpg);
+}
+
 #burger {
     background-image: url(../images/burger.jpg);
 }

@@ -175,7 +175,7 @@ form .field input,textarea {
     text-align: center;
     transition: all 0.5s ease-in-out;
     /* margin: auto; */
-    opacity: 90%;
+    opacity: 95%;
     box-shadow: 1px 1px 7px 1px rgb(51, 54, 58);
 }
 

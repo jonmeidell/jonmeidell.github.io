@@ -259,6 +259,14 @@ form .field input,textarea {
     background-image: url(../images/brainr.PNG);
 }
 
+#click {
+    background-image: url(../images/batman.jpg);
+}
+
+#click:hover {
+    background-image: url(../images/batman.gif);
+}
+
 .row {
     padding-top: 25px;
     padding-bottom: 0;

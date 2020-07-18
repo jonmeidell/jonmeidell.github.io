@@ -10,7 +10,7 @@ _This page is currently in process of periodic updates as I am improving my skil
 
 ![Site Preview](https://jonmeidell.github.io/assets/images/preview.PNG)
 
-Cheers!
+_**Cheers!**_
 
-#### Improvements to be made:
+### Improvements to be made:
   * _Minor tweaking to responsiveness on navbar between 576px and 767px_

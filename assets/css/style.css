@@ -2,20 +2,26 @@
 
 .container {
     background-color: lightseagreen;
-    font-family: 'Trade Winds';
+    font-family: "Trade Winds";
     text-align: center;
     color: rgb(39, 13, 73);
     box-shadow: 1px 1px 7px 1px rgb(51, 54, 58);
 }
 
+@media only screen and (max-width: 1100px) and (min-width: 768px) {
+    .container {
+        border-radius: 0px 0px 3px 0px;
+    }
+}
+
 .navbar {
-    font-family: 'Trade Winds';
+    font-family: "Trade Winds";
     border-radius: 0px 0px 0px 3px;
     box-shadow: 1px 1px 7px 1px rgb(51, 54, 58);
 }
 
 .nav-item {
-    font-family: 'Oxanium';
+    font-family: "Oxanium";
 }
 
 .navSeparation {
@@ -26,15 +32,19 @@
 
 .reprobody {
     background-image: url("../images/brick.jpg");
-    font-family: 'Oxanium';
+    font-family: "Oxanium";
 }
 
 .aboutMe {
-    font-family: 'Trade Winds'; 
-    padding: 5px 0 0 10px;   
+    font-family: "Trade Winds";
+    padding: 5px 0 0 10px;
 }
 
-.indexCard {    
+.aboutBody {
+    padding-bottom: 25px !important;
+}
+
+.indexCard {
     transition: all 0.5s ease-in-out;
     opacity: 90%;
     box-shadow: 1px 1px 7px 1px rgb(51, 54, 58);
@@ -44,6 +54,11 @@
     .indexCard {
         margin-bottom: 80px;
     }
+}
+
+.portrait {
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 1px rgb(116, 143, 177);
 }
 
 .clearfix::after {
@@ -60,18 +75,23 @@
 }
 
 .row {
-    padding: 0px 50px 15px 20px; 
+    padding: 0px 50px 15px 20px;
 }
 
 .column {
     float: left;
     padding: 5px;
-  }
+}
 
 .row::after {
     content: "";
     clear: both;
     display: table;
+}
+
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+    padding-left: 3px;
 }
 
 #pic {
@@ -88,7 +108,7 @@
 
 .contactbody {
     background-image: url("../images/leaves.jpg");
-    font-family: 'Oxanium';
+    font-family: "Oxanium";
 }
 
 .links-container {
@@ -96,7 +116,7 @@
 }
 
 .me {
-    font-family: 'Trade Winds';
+    font-family: "Trade Winds";
     font-size: 60px;
 }
 
@@ -106,12 +126,13 @@ form {
 
 form .field {
     padding: 20px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     font-size: 16px;
 }
 
-form .field input,textarea {
+form .field input,
+textarea {
     padding: 5px;
 }
 
@@ -155,14 +176,14 @@ form .field input,textarea {
 .portfoliobody {
     background-image: url("../images/tree.jpg");
     background-size: cover;
-    font-family: 'Oxanium';
+    font-family: "Oxanium";
 }
 
 .box {
     border-radius: 3px;
     background-color: rgb(243, 208, 227);
     padding: 5px;
-    font-family: 'Trade Winds';
+    font-family: "Trade Winds";
 }
 
 .portCard {
@@ -181,6 +202,10 @@ form .field input,textarea {
 
 .portCard:hover {
     box-shadow: 1px 1px 7px 3px rgb(61, 160, 252);
+}
+
+.row-bottom {
+    padding-bottom: 90px;
 }
 
 #port {
@@ -281,4 +306,3 @@ form .field input,textarea {
         margin-bottom: 80px;
     }
 }
-

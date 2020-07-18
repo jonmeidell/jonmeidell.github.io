@@ -33,6 +33,12 @@
 .reprobody {
     background-image: url("../images/brick.jpg");
     font-family: "Oxanium";
+    /* parallax scrolling; only needed on some mobile devices */
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .aboutMe {
@@ -109,6 +115,12 @@
 .contactbody {
     background-image: url("../images/leaves.jpg");
     font-family: "Oxanium";
+    /* parallax scrolling; not necessary on this page, but just in case */
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .links-container {
@@ -177,6 +189,12 @@ textarea {
     background-image: url("../images/tree.jpg");
     background-size: cover;
     font-family: "Oxanium";
+    /* parallax scrolling */
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .box {
@@ -205,7 +223,7 @@ textarea {
 }
 
 .row-bottom {
-    padding-bottom: 90px;
+    padding-bottom: 90px !important;
 }
 
 #port {
@@ -306,3 +324,19 @@ textarea {
         margin-bottom: 80px;
     }
 }
+
+/* Parallax */
+
+.parallax {
+    /* The image used */
+    background-image: url('img_parallax.jpg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

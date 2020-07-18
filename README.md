@@ -8,6 +8,8 @@
 
 _This page is currently in process of periodic updates as I am improving my skills, so you will likely see improvements to the page as you visit it from time-to-time._
 
+![Site Preview](https://jonmeidell.github.io/assets/images/preview.PNG)
+
 Cheers!
 
 #### Improvements to be made:

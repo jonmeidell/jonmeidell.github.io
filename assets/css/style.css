@@ -310,6 +310,14 @@ textarea {
     background-image: url(../images/batman.gif);
 }
 
+#books  {
+    background-image: url(../images/ghostbustersBooks.jpg);
+}
+
+#books:hover {
+    background-image: url(../images/necronomicon.gif);
+}
+
 .row {
     padding-top: 25px;
     padding-bottom: 0;

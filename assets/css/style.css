@@ -34,7 +34,7 @@
     background-image: url("../images/brick.jpg");
     font-family: "Oxanium";
     /* parallax scrolling; only needed on some mobile devices */
-    height: 100%; 
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -116,7 +116,7 @@
     background-image: url("../images/leaves.jpg");
     font-family: "Oxanium";
     /* parallax scrolling; not necessary on this page, but just in case */
-    height: 100%; 
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -190,7 +190,7 @@ textarea {
     background-size: cover;
     font-family: "Oxanium";
     /* parallax scrolling */
-    height: 100%; 
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -310,12 +310,20 @@ textarea {
     background-image: url(../images/batman.gif);
 }
 
-#books  {
+#books {
     background-image: url(../images/ghostbustersBooks.jpg);
 }
 
 #books:hover {
     background-image: url(../images/necronomicon.gif);
+}
+
+#devspot {
+    background-image: url(../images/DevSpotStart.PNG);
+}
+
+#devspot:hover {
+    background-image: url(../images/DevSpotPrev.PNG);
 }
 
 .row {
@@ -337,14 +345,14 @@ textarea {
 
 .parallax {
     /* The image used */
-    background-image: url('img_parallax.jpg');
-  
+    background-image: url("img_parallax.jpg");
+
     /* Full height */
-    height: 100%; 
-  
+    height: 100%;
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}

@@ -312,10 +312,12 @@ textarea {
 
 #click {
     background-image: url(../images/batman.jpg);
+    opacity: 100%;
 }
 
 #click:hover {
     background-image: url(../images/batman.gif);
+    opacity: 100%;
 }
 
 #books {

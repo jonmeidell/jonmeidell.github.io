@@ -286,6 +286,14 @@ textarea {
     background-image: url(../images/bamazon.jpg);
 }
 
+#friend {
+    background-image: url(../images/muppets.jpg);
+}
+
+#friend:hover {
+    background-image: url(../images/muppets.gif);
+}
+
 #burger {
     background-image: url(../images/burger.jpg);
 }

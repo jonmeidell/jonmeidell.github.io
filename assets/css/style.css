@@ -222,6 +222,10 @@ textarea {
     box-shadow: 1px 1px 7px 3px rgb(61, 160, 252);
 }
 
+.portCard-row {  
+    justify-content: center;
+}
+
 .row-bottom {
     padding-bottom: 90px !important;
 }

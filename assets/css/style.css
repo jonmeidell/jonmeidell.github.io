@@ -329,11 +329,11 @@ textarea {
 }
 
 #devspot {
-    background-image: url(../images/DevSpotStart.PNG);
+    background-image: url(../images/silhouette.jpg);
 }
 
 #devspot:hover {
-    background-image: url(../images/silhouette.jpg);
+    background-image: url(../images/DevSpotPrev.PNG);
 }
 
 .row {

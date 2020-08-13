@@ -314,6 +314,14 @@ textarea {
     background-image: url(../images/brainr.PNG);
 }
 
+#scraper {
+    background-image: url(../images/mario.jpg);
+}
+
+#scraper:hover {
+    background-image: url(../images/mario.gif);
+}
+
 #click {
     background-image: url(../images/batman.jpg);
     opacity: 100%;

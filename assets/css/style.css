@@ -1,6 +1,7 @@
 /* --- navbar ---*/
 
 .container {
+    width: auto;
     background-color: lightseagreen;
     font-family: "Trade Winds";
     text-align: center;

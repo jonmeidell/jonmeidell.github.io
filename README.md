@@ -16,4 +16,4 @@ _This page is currently in process of periodic updates as I am improving my skil
 _**Cheers!**_
 
 ### `Improvements to be made:`
-  * _Minor tweaking to responsiveness on navbar between 576px and 767px_
+  * _Improve layout of portfolio page_

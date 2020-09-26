@@ -87,13 +87,6 @@
     box-shadow: 1px 1px 7px 1px rgb(46, 111, 172);
 }
 
-.acclaimCard {
-    background-color: #fff;
-    transition: all 0.5s ease-in-out;
-    opacity: 10%;
-    box-shadow: 1px 1px 7px 1px rgb(51, 54, 58);
-}
-
 .row {
     padding: 0px 50px 15px 20px;
 }

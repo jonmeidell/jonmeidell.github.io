@@ -17,3 +17,4 @@ _**Cheers!**_
 
 ### `Improvements to be made:`
   * _Improve layout of portfolio page_
+  * _Allow acclaim to fully show when above 900px (cutting-off)_
